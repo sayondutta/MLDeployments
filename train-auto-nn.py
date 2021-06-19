@@ -15,6 +15,7 @@ from sklearn.model_selection import GridSearchCV
 def train():
 
     # Load directory paths for persisting model
+    # testing
 
     MODEL_DIR = os.environ["MODEL_DIR"]
     MODEL_FILE_NN = os.environ["MODEL_FILE_NN"]
@@ -48,8 +49,8 @@ def train():
          'activation' : ['identity', 'logistic', 'tanh', 'relu'],
          'solver' : ['lbfgs', 'sgd', 'adam'],
          'hidden_layer_sizes': [(300,),(500,)],
-         'max_iter': [1000],
-         'alpha': [1e-5, 0.001, 0.01, 0.1, 1, 10],
+         'max_iter': [10],
+         'alpha': [1e-5, 0.001], #0.01, 0.1, 1, 10],
          'random_state':[0]
      }
     ]
