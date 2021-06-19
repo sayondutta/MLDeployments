@@ -50,7 +50,7 @@ def train():
          'solver' : ['adam'], #'lbfgs', 'sgd',
          'hidden_layer_sizes': [(30,)], #,(50,)
          'max_iter': [10],
-         'alpha': [1e-5, 0.001], #0.01, 0.1, 1, 10],
+         'alpha': [1e-5], #0.001, 0.01, 0.1, 1, 10],
          'random_state':[0]
      }
     ]
