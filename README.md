@@ -3,6 +3,7 @@ For Mac (follow this URL: https://coralogix.com/blog/how-to-install-and-configur
 To install Jenkins on Mac<br>
 ```brew install jenkins-lts```
 
+
 To start jenkins server:<br>
 ```brew services start jenkins-lts``` <br>
 To stop the jenkins server:<br>
