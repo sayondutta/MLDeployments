@@ -13,8 +13,6 @@ import pandas as pd
 from joblib import dump, load
 from sklearn import preprocessing
 
-print('Hello World')
-
 def train():
 
     # Load directory paths for persisting model
