@@ -46,9 +46,9 @@ def train():
     # Neural Networks multi-layer perceptron (MLP) algorithm that trains using Backpropagation
     param_grid = [
      {
-         'activation' : ['identity', 'logistic', 'tanh', 'relu'],
+         'activation' : ['tanh', 'relu'], #'identity', 'logistic',
          'solver' : ['lbfgs', 'sgd', 'adam'],
-         'hidden_layer_sizes': [(300,),(500,)],
+         'hidden_layer_sizes': [(30,),(50,)],
          'max_iter': [10],
          'alpha': [1e-5, 0.001], #0.01, 0.1, 1, 10],
          'random_state':[0]
