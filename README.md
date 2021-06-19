@@ -12,6 +12,7 @@ To stop the jenkins server:<br>
 Or, if you don't want/need a background service you can just run:<br>
 ```jenkins-lts```<br>
 
+
 Open the following URL after Jenkins server startup<br>
 ```http://localhost:8080/```<br>
 Enter the password from the mentioned path and click continue<br>
