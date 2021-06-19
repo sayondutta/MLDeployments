@@ -4,6 +4,7 @@ To install Jenkins on Mac<br>
 ```brew install jenkins-lts```
 
 
+
 To start jenkins server:<br>
 ```brew services start jenkins-lts``` <br>
 To stop the jenkins server:<br>
