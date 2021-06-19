@@ -16,6 +16,7 @@ from sklearn import preprocessing
 def train():
 
     # Load directory paths for persisting model
+    print('testing')
 
     MODEL_DIR = os.environ["MODEL_DIR"]
     MODEL_FILE_NN = os.environ["MODEL_FILE_NN"]
