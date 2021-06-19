@@ -15,7 +15,8 @@ Open the following URL after Jenkins server startup<br>
 Enter the password from the mentioned path and click continue<br>
 ```cat given_path``` (in the command line to get the password) <br>
 
-To run different approaches follow this url (https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1)
+To run different approaches follow this url  
+(https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1)
 
 
 
